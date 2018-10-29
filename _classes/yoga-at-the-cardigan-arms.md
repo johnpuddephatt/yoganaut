@@ -1,6 +1,6 @@
 ---
 title: Yoga at the Cardigan Arms
-url: https://www.eventbrite.co.uk/e/yoga-at-the-cardigan-arms-tickets-51709616856
+book_url: https://www.eventbrite.co.uk/e/yoga-at-the-cardigan-arms-tickets-51709616856
 ---
 Every Thursday, 6.30pm to 7.30pm, £5 (pay on arrival)
 
