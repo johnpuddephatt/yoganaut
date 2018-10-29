@@ -9,7 +9,7 @@ image: '/assets/images/seated-dancer.svg'
     <h3 class="class-title">{{ class.title }}</h3>
     <div class="class-description">{{ class.content }}</div>
     {% if class.url %}
-    <a class="button" href="class.url">Sign up</a>
+    <a class="button" href="{{ class.url }}">Sign up</a>
     {% endif %}
   </div>
 
