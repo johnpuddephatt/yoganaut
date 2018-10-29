@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    {% seo title="false"%}
     <title>{{ site.data.config.title }} — {{ site.data.config.description }}</title>
+    {% seo title="false"%}
 
     <link rel="stylesheet" href="{{site.baseurl}}assets{{ site.data.mix-manifest['/css/app.css'] }}">
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
