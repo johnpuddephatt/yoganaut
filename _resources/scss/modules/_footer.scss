@@ -1,0 +1,29 @@
+.site-footer {
+  border-top: $base-border;
+  padding: $base-spacing 0;
+  .container {
+    display: flex;
+    flex-direction: row;
+    div + div  {
+      margin-left: $base-spacing;
+      @media screen and (min-width: $large-screen) {
+        margin-left: 2 * $base-spacing;
+      }
+    }
+  }
+}
+
+.site-footer--company {
+  flex: 1 1 auto;
+}
+
+.site-footer--social {
+  flex: 0 0 auto;
+}
+
+.site-footer--links {
+  flex: 0 0 auto;
+  a {
+    display: block;
+  }
+}

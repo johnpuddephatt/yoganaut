@@ -1,0 +1,8 @@
+@include font-face("Georgia Belle", "/assets/fonts/GeorgiaBelle", $file-formats: woff2 woff){
+  font-style: normal;
+  font-weight: 400;
+}
+@include font-face("Gotham Narrow", "/assets/fonts/GothamNarrow-Medium", $file-formats: woff2 woff){
+  font-style: normal;
+  font-weight: 400;
+}

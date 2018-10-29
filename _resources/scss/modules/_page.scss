@@ -1,0 +1,39 @@
+
+.page-content {
+  min-height: calc(100vh - #{6 * $base-spacing});
+  @media screen and (min-width: $medium-screen) {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    > div + div {
+      margin-left: 3 * $base-spacing;
+    }
+  }
+  .page-image {
+    flex: 0 0 40%;
+    padding-top: 2 * $base-spacing;
+    padding-bottom: 2 * $base-spacing;
+    img {
+      display: block;
+      height: auto;
+      width: 100%;
+    }
+  }
+
+  .page-title {
+    margin-bottom: $base-spacing;
+  }
+
+  ul,ol {
+  margin: $small-spacing 0;
+  }
+
+  li {
+    list-style-type: circle;
+    list-style-position: inside;
+  }
+
+  a {
+    color: $base-font-color;
+  }
+}

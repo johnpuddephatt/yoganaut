@@ -1,0 +1,19 @@
+.az-listings--listings {
+  margin-top: 0;
+  @media screen and (min-width: $medium-screen) {
+    margin-top: $base-spacing;
+  }
+}
+.az-listings--inner {
+  margin: 0;
+  display: block;
+  flex-wrap: wrap;
+  flex-direction: row;
+  @media screen and (min-width: $medium-screen) {
+    display: flex;
+    margin: 0 (-$small-spacing) $base-spacing;
+  }
+  @media screen and (min-width: $large-screen) {
+    margin: 0 (-$base-spacing) $base-spacing;
+  }
+}

@@ -1,0 +1,23 @@
+.homepage-content {
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+  flex-direction: column !important;
+
+}
+
+.homepage-image {
+  display: block;
+  margin: 0 auto $small-spacing;
+  width: .6 * $medium-screen;
+  max-width: 80%;
+  height: auto;
+}
+
+.homepage-title {
+  font-size: modular-scale(5);
+}
+
+.homepage-title, .homepage-description {
+  @extend .decorative-heading;
+}

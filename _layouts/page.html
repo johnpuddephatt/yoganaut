@@ -1,0 +1,14 @@
+---
+layout: default
+---
+<div class="container page-content">
+  <div class="page-image">
+    <img src="{{ page.image }}" class="page-image-img" />
+  </div>
+  <div class="page-text">
+    {% if page.path != "classes.md" %}
+      <h1 class="page-title">{{ page.title | escape }}</h1>
+    {% endif %}
+    {{ content | markdownify }}
+  </div>
+</div>

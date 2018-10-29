@@ -1,0 +1,19 @@
+.site-header {
+  > .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: $base-spacing;
+    padding-bottom: $base-spacing;
+  }
+}
+
+.site-title {
+  letter-spacing: .25em;
+  @extend .decorative-heading;
+  font-size: modular-scale(1);
+  line-height: $base-line-height;
+  color: $base-font-color;
+  font-weight: 700;
+  line-height: 1.5 * $base-spacing;
+}
