@@ -48,7 +48,7 @@ plugins:
 markdown:    kramdown
 highlighter: rouge
 lsi:         false
-excerpt_separator: ""
+excerpt_separator: "\n\n"
 incremental: false
 
 # Serving
@@ -71,7 +71,7 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-      
+
 liquid:
   error_mode: warn
 
