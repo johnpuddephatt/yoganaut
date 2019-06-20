@@ -6,6 +6,9 @@ layouts_dir:     _layouts
 data_dir:        _data
 includes_dir:    _includes
 collections:
+  pages:
+    output: true
+    permalink: /:title/index.html
   posts:
     output: true
   classes:
@@ -45,7 +48,7 @@ plugins:
 markdown:    kramdown
 highlighter: rouge
 lsi:         false
-excerpt_separator: "\n\n"
+excerpt_separator: ""
 incremental: false
 
 # Serving
@@ -62,8 +65,13 @@ timezone:      null
 
 quiet:    false
 verbose:  true
-defaults: []
-
+defaults:
+  -
+    scope:
+      type: "posts"
+    values:
+      layout: "post"
+      
 liquid:
   error_mode: warn
 

@@ -1,0 +1,12 @@
+---
+layout: page
+title: Words
+image: '/assets/images/seated-dancer.svg'
+---
+
+{% for post in site.posts %}
+  <div class="post">
+    <h3 class="post-title"><a href="{{post.url}}">{{ post.title }}</a></h3>
+    <div class="post-description">{{ post.date | date: "%b %d, %Y" }}</div>
+  </div>
+{% endfor %}

@@ -1,4 +1,5 @@
 header_pages:
-  - classes.md
-  - about.md
-  - contact.md
+  - _pages/classes.md
+  - _pages/about.md
+  - _pages/blog.html
+  - _pages/contact.md
