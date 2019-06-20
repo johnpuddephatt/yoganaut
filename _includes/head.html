@@ -7,7 +7,7 @@
     <title>{{ site.data.config.title }} — {{ site.data.config.description }}</title>
     {% seo title="false"%}
 
-    <link rel="stylesheet" href="{{site.baseurl}}assets{{ site.data.mix-manifest['/css/app.css'] }}">
+    <link rel="stylesheet" href="/assets{{ site.data.mix-manifest['/css/app.css'] }}">
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
     <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url }}">
 
